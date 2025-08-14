@@ -22,6 +22,7 @@ export default defineConfig([
         'warn',
         { argsIgnorePattern: '^_' },
       ],
+      'eol-last': ['error', 'always'],
     },
   },
 ]);
