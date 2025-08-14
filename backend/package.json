@@ -12,7 +12,10 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,ts}": ["eslint --fix", "prettier --write"]
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "dotenv": "^16.4.5",
