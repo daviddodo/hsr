@@ -6,7 +6,7 @@
     "dev": "nodemon src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .ts,.js",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "prepare": "husky"
