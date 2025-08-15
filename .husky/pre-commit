@@ -1,6 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-echo "HUSKY HOOK RUNNING"
-# cd backend || exit 1
-npm run lint
+echo ">>> husky pre-commit hook running <<<"
+cd backend || exit 1
+npx lint-staged
+echo ">>> husky pre-commit hook finished <<<"
